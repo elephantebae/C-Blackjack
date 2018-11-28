@@ -6,7 +6,7 @@ namespace deck
             public List<Card> cards = new List<Card>();
             Random rand = new Random();
             public Deck(){
-                int [] val = {1,2,3,4,5,6,7,8,9,10,11,12,13};
+                int [] val = {1,2,3,4,5,6,7,8,9,10,10,10,10};
                 string [] suit = {"Clubs","Spades","Hearts","Diamonds"};
                 string [] strval = {"Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"};
                 for(var i = 0; i < suit.Length; i++){
@@ -26,15 +26,14 @@ namespace deck
                 Deck reset = new Deck(); 
                 return reset; 
             }
-            public void Shuffle(List<Card> deck){
-                for(int n= deck.Count-1; n>0; n--){
+            public void Shuffle()
+                {
+                for(int n= cards.Count-1; n>0; n--){
                     int k = rand.Next(n+1);
-                    Card temp = deck[n];
-                    deck[n] = deck[k];
-                    deck[k] = temp;
+                    Card temp = cards[n];
+                    cards[n] = cards[k];
+                    cards[k] = temp;
                 }
             }
-
-
         }
 }

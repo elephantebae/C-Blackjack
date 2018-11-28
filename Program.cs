@@ -14,7 +14,8 @@ namespace deck
                 string line = Console.ReadLine();
                 Player player1 = new Player(line);
                 Console.WriteLine(player1);
-
+                Deck newdeck = new Deck();
+                newdeck.Shuffle();
             }
         }
         
