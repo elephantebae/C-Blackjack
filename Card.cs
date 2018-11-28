@@ -12,7 +12,7 @@ namespace deck
 
             }
         public override string ToString(){
-            return $"face:{StringVal},suit:{Suit}";
+            return $"{StringVal}, of {Suit}";
         }
     }
 } 

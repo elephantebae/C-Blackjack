@@ -27,7 +27,14 @@ namespace deck{
             }
 
         }
+        public class Dealer: Player{
+            public Dealer(string name):base(name){}
+            public void ViewHandDealer(){
+                Console.WriteLine(hand[0]);
+            }
+        }
     }
+    
 
 
 
