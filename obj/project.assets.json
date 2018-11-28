@@ -681,30 +681,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paulb\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/ashton/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\downloads\\CodingDojo\\c#\\OOP\\deck\\deck.csproj",
+      "projectUniqueName": "/Users/ashton/Desktop/Code/C#/C-Blackjack/deck.csproj",
       "projectName": "deck",
-      "projectPath": "d:\\downloads\\CodingDojo\\c#\\OOP\\deck\\deck.csproj",
-      "packagesPath": "C:\\Users\\paulb\\.nuget\\packages\\",
-      "outputPath": "d:\\downloads\\CodingDojo\\c#\\OOP\\deck\\obj\\",
+      "projectPath": "/Users/ashton/Desktop/Code/C#/C-Blackjack/deck.csproj",
+      "packagesPath": "/Users/ashton/.nuget/packages/",
+      "outputPath": "/Users/ashton/Desktop/Code/C#/C-Blackjack/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\paulb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ashton/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
