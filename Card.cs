@@ -3,7 +3,7 @@ namespace deck
     class Card{
             string StringVal; 
             string Suit;
-            int Val;
+            public int Val;
 
         public Card(string suit, int val, string strval){
                 StringVal = strval;

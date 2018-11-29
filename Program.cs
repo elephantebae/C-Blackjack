@@ -24,13 +24,14 @@ namespace deck
                 player1.ViewHand();
                 Console.WriteLine("dealer hand");
                 dealer1.ViewHandDealer();
-                Console.WriteLine("would you like to hit?");
+                Console.WriteLine("would you like to hit, stay, fold");
                 string Pchoice = Console.ReadLine();
-                Control.choice(Pchoice, newdeck, player1);
+                Control.choice(Pchoice, newdeck, player1, dealer1);
                 Console.WriteLine("your hand");
                 player1.ViewHand();
                 Console.WriteLine("dealer hand");
                 dealer1.ViewHand();
+                // Control.check(player1, dealer1);
 
                 gameloop = false;
             }
